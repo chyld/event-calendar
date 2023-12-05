@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event Calendar</title>
+    <base href="http://localhost:8000/" />
+    <script src="https://unpkg.com/htmx.org@1.9.9"></script>
+  </head>
+
+  <body>
+    <a href="http://localhost:8080/note.html">New Note</a>
+    <a href="http://localhost:8080/event.html">New Event</a>
+    Content goes here.
+    <button hx-get="/" hx-swap="outerHTML">Click Me</button>
+  </body>
+</html>
